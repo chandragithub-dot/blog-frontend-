@@ -1,0 +1,50 @@
+.post{
+    width: 440px;
+    margin-right: 28px;
+   background-color:aliceblue;
+}
+
+.postImage{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.postInfo{display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.postCats{
+    display: flex;
+    margin-top: 10px;
+}
+
+.postCat{
+    font-family:Arial, Helvetica, sans-serif;;
+    margin-left: 10px;
+    color:dimgray;
+    cursor: pointer;
+    font-size: small;
+}
+
+.postTitle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+    font-weight: bold;
+    margin: 8px;
+    
+}
+
+.timePost{
+    font-family: 'Lora', serif;
+    color: darkgrey;
+    font-size: small;
+}
+
+.postInfo>p{
+    margin:10px 0 10px 0;
+font-size:10;
+line-height: 24px;
+}

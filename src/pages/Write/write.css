@@ -1,0 +1,52 @@
+.writeForm{
+    
+    margin-left: 145px;
+}
+
+.formImage{
+    width: 70%;
+   margin-left: 150px;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 10px;
+   margin-top: 50px;
+}
+
+.icon-add{
+    margin: 5px;
+    cursor: pointer;
+    color:tomato;
+}
+
+.writeTitle{
+    width: 500px;
+    height: 30px;
+    font-size: large;
+    background-color:azure;
+    border: none;
+    font-style: italic;
+    
+}
+
+.writeStory{
+    width: 500px;
+    height: 80px;
+    margin: 10px;
+    position:absolute;
+    margin-left: 25px;
+    font-size: large;
+    background-color:azure;
+    border:none;
+}
+
+.submitButton{
+    position:absolute;
+    margin-top: 105px;
+    margin-left: 470px;
+    color: white;
+    background-color: green;
+    border: none;
+    height: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+}

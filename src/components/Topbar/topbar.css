@@ -1,0 +1,56 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color:aliceblue;
+    position: sticky;
+    top: 0;
+    display:flex;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.topLeft,.topRight{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    
+}
+.top-icon{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.topCenter{
+    flex: 6;
+    
+}
+
+.topList{
+    display: flex;
+  justify-content: center;
+    list-style: none;
+}
+
+.topImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.topListItem{
+    margin-right: 40px;
+    font-size: 18px;
+    font-family: 'Urbanist', sans-serif;
+  cursor:pointer;
+}
+.top-icon-image{
+color: gray;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+

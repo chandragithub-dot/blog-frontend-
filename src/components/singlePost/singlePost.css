@@ -1,0 +1,88 @@
+.singlePost {
+    flex: 9;
+}
+
+.Wrapper{
+    padding: 10px;
+}
+
+.singlePostImage {
+    width: 100%;
+    margin: 10px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.postDetails{
+    display: flex;
+    justify-content: center;
+}
+
+.singlePostTitle{
+   font-size:x-large;
+   font-style:italic;
+}
+
+.singlePostEdit{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 5px;
+    font-size: small;
+}
+
+.edit-icon{
+color: green;
+cursor: pointer;
+}
+
+.delete-icon{
+color:red;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.singlePostInfo{
+    display:flex;
+    justify-content: space-between;
+    margin:15px 10px 15px 10px;
+}
+.singlePostDate{
+    font-size: small;
+    color:darkslategray;
+}
+
+.singlePostAuthor{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Wrapper>p{
+    font-size: 10;
+    line-height: 20px;
+    color:black;
+}
+
+.upTitle{
+    width: 300px;
+    height: 20px;
+   border:.2px solid grey; 
+    
+}
+
+.upDesc{
+    width: 500px;
+    height: 150px;
+    border:.2px solid grey; 
+}
+
+.updateButton{
+    height: 25px;
+    width: 100px;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    color:white;
+   margin-left: 80px;
+}

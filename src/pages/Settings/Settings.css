@@ -1,0 +1,76 @@
+.Settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex:9;
+    margin: 10px;
+}
+
+.profileImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.user-icon{
+    cursor:pointer;
+}
+
+.settingsTitle{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accountPP{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.updateTitle{
+    color:blue;
+    font-size: x-large;
+    margin: 10px;
+}
+.deleteTitle{
+    color: red;
+    font-size: 10;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.l{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.i{
+    margin: 10px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+   
+}
+
+.settingsSubmit{
+    width:200px;
+    height: 25px;
+    position:relative;
+    margin-top: 10px;
+    margin-left: 45%;
+    border-radius:10px ;
+    background-color:teal;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
